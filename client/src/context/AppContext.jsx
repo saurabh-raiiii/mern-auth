@@ -8,7 +8,7 @@ export const AppContextProvider = (props) => {
 
     axios.defaults.withCredentials = true;
 
-    const backendUrl = 'https://mern-auth-nzzy.onrender.com';
+    const backendUrl = 'http://localhost:3000';
     const [isLoggedin, setIsLoggedin] = useState(false);
     const [userData, setUserData] = useState(false)
 
